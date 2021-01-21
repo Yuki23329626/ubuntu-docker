@@ -13,7 +13,7 @@ services:
     environment:
       - DISPLAY
       - XAUTH_ID
-        #network_mode: host
+    network_mode: host
 
 volumes:
   homepage:

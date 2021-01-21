@@ -16,6 +16,7 @@ echo ID=$ID
 export XAUTH_ID="$(xauth list | grep "unix:$ID")"
 echo XAUTH_ID=$XAUTH_ID
 
+docker exec -it $container_id xauth add $XAUTH_ID
 docker exec -it $container_id bash
 
 exit 0
