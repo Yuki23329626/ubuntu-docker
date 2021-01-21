@@ -32,6 +32,10 @@ sh attach.sh
 sh stop.sh
 ```
 
+### 備註
+有需要的話，可以進到 shell script 了解 docker 相關指令  
+或是到下方 references 提供的連結學習如何使用 docker & docker-compose  
+
 ## How to run GUI app on docker(only on unix-like system)
 ### <span style="color:#ff0000;"> 重要 - 已經使用 shell script 將下述動作自動化，有問題可以嘗試手動添加 </span>
 
