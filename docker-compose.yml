@@ -3,6 +3,9 @@ version: '3.8'
 services:
   ubuntu-os:
     build: ./os
+    # ports:
+      # - 80:80 # physical port : container port
+      # - 443:443 # physical port : container port
     volumes:
       - ./os/root:/root
       - /tmp/.X11-unix:/tmp/.X11-unix
