@@ -9,7 +9,9 @@ services:
     volumes:
       - ./os/home:/home
       - /tmp/.X11-unix:/tmp/.X11-unix
-    tty: true # 必須要加這一行保證 ubuntu os 不會自行退出
+    # 必須要加下面這一行保證 ubuntu os 不會自行退出
+    # 如果無法正常建立，可能是 Dockerfile 內指令有誤，需手動執行 docker-compose 等指令確認 bug 原因
+    tty: true
     environment:
       - DISPLAY
       - XAUTH_ID
