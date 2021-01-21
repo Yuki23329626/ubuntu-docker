@@ -13,7 +13,7 @@ services:
     environment:
       - DISPLAY
       - XAUTH_ID
-    network_mode: host
+    network_mode: host # X11-forwarding 必須為 host mode，與主機共用 network 的命名空間(應該)
 
 volumes:
   homepage:
