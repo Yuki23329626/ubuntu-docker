@@ -9,10 +9,10 @@ ID=$(echo ${DISPLAY#*:})
 ID=$(echo ${ID%.*})
 #echo ID=$ID
 export XAUTH_ID="$(xauth list | grep "unix:$ID")"
-echo XAUTH_ID=$XAUTH_ID
-
-echo "building container: ubuntu-os
+echo "
+XAUTH_ID=$XAUTH_ID
 "
+
 docker-compose up --build -d ubuntu-os
 
 container_id=`docker ps | grep ubuntu | cut -c1-12`
