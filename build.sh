@@ -7,11 +7,12 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 
 ID=$(echo ${DISPLAY#*:})
 ID=$(echo ${ID%.*})
-echo ID=$ID
+#echo ID=$ID
 export XAUTH_ID="$(xauth list | grep "unix:$ID")"
 echo XAUTH_ID=$XAUTH_ID
 
-echo "building container: ubuntu-os"
+echo "building container: ubuntu-os
+"
 docker-compose up --build -d ubuntu-os
 
 container_id=`docker ps | grep ubuntu | cut -c1-12`
