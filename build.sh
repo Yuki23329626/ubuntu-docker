@@ -1,6 +1,6 @@
 #!/bin/bash
 # Program:
-#	用來 stop ubuntu-os docker container 的腳本
+#	用來建立 ubuntu-os docker container 的腳本
 # History:
 # 2020/09/26	nxshen	First release
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
