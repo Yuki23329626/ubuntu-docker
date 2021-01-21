@@ -15,7 +15,7 @@ XAUTH_ID=$XAUTH_ID
 
 docker-compose up --build -d ubuntu-os
 
-container_id=`docker ps | grep ubuntu | cut -c1-12`
+container_id=`docker ps | grep ubuntu-os | cut -c1-12`
 docker exec -it $container_id xauth add $XAUTH_ID
 
 exit 0
