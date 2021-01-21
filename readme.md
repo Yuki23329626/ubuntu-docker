@@ -5,7 +5,7 @@ Running Ubuntu in docker container. Useful in establishing an environment for th
 ## Requirements
 Install following tools in your physical environment(實體機器):  
 - [docker](https://docs.docker.com/engine/install/)
-- [docker-compose](https://docs.docker.com/compose/install/)
+- [docker-compose](https://docs.docker.com/compose/install/)(ubuntu 18.04 需安裝 docker compose 1.27 的版本)
 - ssh client with x11-forwarding(e.g. MobaXterm)
 
 ### build
