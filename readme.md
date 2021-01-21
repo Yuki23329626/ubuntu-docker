@@ -61,6 +61,7 @@ xauth add hsng-server/unix:14  MIT-MAGIC-COOKIE-1  050fe03564e7cc3a8c84b60ec26f0
 
 4. 隨便執行一個圖形化介面程式進行測試，我使用的是 firefox
 ```bash
+apt-get update
 apt-get install -y firefox
 firefox
 ```
