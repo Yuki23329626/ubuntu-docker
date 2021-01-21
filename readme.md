@@ -65,3 +65,7 @@ firefox
 
 ## 無關緊要的備註
 1. 安裝 maven ，需要安裝 default-jdk，不要安裝 default-jre，要安裝 maven 官網下載的 zip 檔案，把其中的 bin 設置到 PATH 中，另外 MAVEN_HOME 設置為 maven 根目錄  
+
+## References
+1. [Docker 教學](https://github.com/twtrubiks/docker-tutorial)  
+2. [Docker & docker-compose 教學](https://www.runoob.com/docker/docker-compose.html) 
