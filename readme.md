@@ -37,7 +37,8 @@ sh stop.sh
 或是到下方 references 提供的連結學習如何使用 docker & docker-compose  
 
 ## How to run GUI app on docker(only on unix-like system)
-### <span style="color:#ff0000;"> 重要 - 已經使用 shell script 將下述動作自動化，有問題可以嘗試手動添加 </span>
+### <span style="color:#ff0000;"> 重要 - 已經使用 shell script 將下述動作自動化，有問題可以嘗試手動添加 </span>  
+### <span style="color:#ff0000;"> 目前只在 .10 的  server 上測試過，系統為 ubuntu 18.04 </span>
 
 [Youtube影片教學](https://www.youtube.com/watch?v=RDg6TRwiPtg)
 1. 查詢目前使用的 X11-forwarding 使用的是哪一個 port
