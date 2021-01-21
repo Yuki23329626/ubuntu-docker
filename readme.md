@@ -33,6 +33,7 @@ sh stop.sh
 ```
 
 ### 備註
+docker-compose.yml 的 network mode 必須為 host  
 有需要的話，可以進到 shell script 了解 docker 相關指令  
 或是到下方 references 提供的連結學習如何使用 docker & docker-compose  
 
