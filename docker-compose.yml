@@ -3,18 +3,20 @@ version: '3.8'
 services:
   ubuntu-os:
     build: ./os
+    ports:
+      - 80:3000
     volumes:
-      - ./os/root:/root
+      - ./os/home:/home
       - /tmp/.X11-unix:/tmp/.X11-unix
     tty: true # 必須要加這一行保證 ubuntu os 不會自行退出
     environment:
       - DISPLAY
       - XAUTH_ID
-    network_mode: host
+        #network_mode: host
 
 volumes:
   homepage:
 
-networks:
-  test:
-    driver: bridge
+#networks:
+#  test:
+#    driver: bridge
