@@ -21,5 +21,5 @@ FROM ubuntu:16.04
 可以透過 shell script 來執行一些像是參數設定的操作  
 
 ## Reference
-1.[Docker 教學](https://github.com/twtrubiks/docker-tutorial)
+1.[Docker 教學](https://github.com/twtrubiks/docker-tutorial)  
 2.[Docker & docker-compose 教學](https://www.runoob.com/docker/docker-compose.html) 
