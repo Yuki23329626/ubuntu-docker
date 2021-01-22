@@ -78,6 +78,7 @@ firefox
 ## References
 1. [Docker 教學](https://github.com/twtrubiks/docker-tutorial)  
 2. [Docker & docker-compose 教學](https://www.runoob.com/docker/docker-compose.html) 
+3. [Docker network mode 的差別](https://k2r2bai.com/2016/01/05/container/docker-network/)
 
 ## 無關緊要的備註
 1. 安裝 maven ，需要安裝 default-jdk，不要安裝 default-jre，因為 aws kvs maven 只支援 1.8 的超老舊版本  
