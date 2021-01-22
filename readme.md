@@ -5,7 +5,7 @@ Running Ubuntu in docker container. Useful in establishing an environment for th
 ## Requirements
 Install following tools in your physical environment(實體機器):  
 - [docker](https://docs.docker.com/engine/install/)
-- [docker-compose](https://docs.docker.com/compose/install/) # ubuntu 18.04 需安裝 docker compose 1.27 的版本，官網提供的指令為 v1.28
+- [docker-compose](https://docs.docker.com/compose/install/) # ubuntu 18.04 需安裝 docker compose 1.27 的版本，官網提供的安裝指令為 v1.28
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
