@@ -23,7 +23,7 @@ sh build.sh
 
 ### attach
 
-進到你 container 上的 bash
+attach to the bash of the container  
 
 ```bash
 sh attach.sh
@@ -31,7 +31,7 @@ sh attach.sh
 
 ### stop
 
-停止你的 container
+stop your container  
 
 ```bash
 sh stop.sh
